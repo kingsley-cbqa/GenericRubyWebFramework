@@ -1,9 +1,9 @@
 ##########################################
 #
-# Test directives
+# Test directives - TODO use bundler
 #
 ##########################################
 
 test:
   override:
-    - rspec search_youtube_spec.rb
+    - gem install page-object && gem install watir-webdriver && rspec search_youtube_spec.rb
