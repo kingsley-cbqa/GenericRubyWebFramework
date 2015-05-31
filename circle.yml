@@ -6,4 +6,4 @@
 
 test:
   override:
-    - rspec search_youtube_spec
+    - rspec ./search_youtube_spec
