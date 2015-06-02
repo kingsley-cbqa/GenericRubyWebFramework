@@ -6,4 +6,4 @@
 
 test:
   override:
-    - bundle install && bundle exec rake spec[functional,parallel]
+    - bundle install && bundle exec rake spec[functional,parallel] --trace
