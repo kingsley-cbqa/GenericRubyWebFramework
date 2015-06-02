@@ -5,5 +5,4 @@ module HelperMethods
     report.set_status(status, testrun_id, testcase_id)
   end
   
-
 end
