@@ -16,4 +16,9 @@ machine:
 
 test:
   override:
-    - bundle install && bundle exec rake spec[functional,parallel] --trace
+    - bundle exec rake spec[functional,parallel] --trace
+        parallel:
+	  files:
+	    - spec/**/*_spec.rb
+    
+    
