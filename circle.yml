@@ -6,4 +6,4 @@
 
 test:
   override:
-    - gem install page-object && gem install watir-webdriver && rspec search_youtube_spec.rb
+    - bundle install && bundle exec rake spec[functional,parallel]
